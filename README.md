@@ -19,8 +19,9 @@ All reproducibility files are stored in
 - `4.2/`: operating-point, rank, mechanism, and correction-budget experiments.
 - `4.3/`: controlled robustness and end-to-end runtime comparisons.
 - `4.4/`: Kodak24 benchmark against nine disclosed author reimplementations.
-- `Supplementary_Results/`: scripts for Sections S1--S4, including the
-  auxiliary `Delta=120` and `Delta=160` experiments reported in Section S4.
+- `Supplementary_Results/`: scripts for Sections S1--S3. The auxiliary
+  `Delta=120` and `Delta=160` experiments reported in Section S4 use the
+  Section 4.3 and 4.4 scripts.
 - `core/`: RBSVD--QIM implementation and shared experiment utilities.
 - `images/`: the eight host images, four watermark images, and Kodak24 set used
   in the experiments.
