@@ -14,14 +14,13 @@ analyses reported in the manuscript.
 ## Repository contents
 
 All reproducibility files are stored in
-[`Supplementary_Material_Submission`](Supplementary_Material_Submission/).
+[`Supplementary_Material`](Supplementary_Material/).
 
 - `4.2/`: operating-point, rank, mechanism, and correction-budget experiments.
 - `4.3/`: controlled robustness and end-to-end runtime comparisons.
 - `4.4/`: Kodak24 benchmark against nine disclosed author reimplementations.
-- `Supplementary_Results/`: scripts for Sections S1--S3 and the compiled
-  Supplementary Results PDF, including the auxiliary `Delta=120` and
-  `Delta=160` results in Section S4.
+- `Supplementary_Results/`: scripts for Sections S1--S4, including the
+  auxiliary `Delta=120` and `Delta=160` experiments reported in Section S4.
 - `core/`: RBSVD--QIM implementation and shared experiment utilities.
 - `images/`: the eight host images, four watermark images, and Kodak24 set used
   in the experiments.
@@ -29,7 +28,7 @@ All reproducibility files are stored in
   manifest itself.
 
 The detailed experiment commands and protocol notes are given in the
-[package README](Supplementary_Material_Submission/README.md).
+[package README](Supplementary_Material/README.md).
 
 ## Quick start
 
@@ -37,7 +36,7 @@ The reported experiments used Python 3.12.10. From the package directory,
 create an environment and install the pinned dependencies:
 
 ```bash
-cd Supplementary_Material_Submission
+cd Supplementary_Material
 python -m venv .venv
 python -m pip install -r requirements.txt
 ```
@@ -66,11 +65,11 @@ commands for running Sections 4.2, 4.3, 4.4, and S1--S4 separately.
 - Generated CSV, JSON, and figure files are written to the selected output
   directory and are not included in the repository.
 - Image-source information and common-protocol adaptations are recorded in
-  `THIRD_PARTY_NOTICE.txt` and the Supplementary Results PDF.
+  `THIRD_PARTY_NOTICE.txt` and the separate Supplementary Results document.
 
 ## License and citation
 
 The supplied research code is distributed under the terms stated in
-[`LICENSE.txt`](Supplementary_Material_Submission/LICENSE.txt). Citation
+[`LICENSE.txt`](Supplementary_Material/LICENSE.txt). Citation
 details will be added when the manuscript receives its final bibliographic
 record.

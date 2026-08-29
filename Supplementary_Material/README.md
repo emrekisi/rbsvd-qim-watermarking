@@ -105,10 +105,11 @@ Supplementary Results.
 
 ## Supplementary Results
 
-`Supplementary_Results.pdf` contains the attack-wise operating-point maps,
-the brightness-offset analysis, the published-method implementation details,
-and the auxiliary `Delta=120` and `Delta=160` controlled and Kodak24 results
-referenced by the article.
+The separate Supplementary Results document accompanying the article contains
+the attack-wise operating-point maps, the brightness-offset analysis, the
+published-method implementation details, and the auxiliary `Delta=120` and
+`Delta=160` controlled and Kodak24 results. The scripts used to generate these
+results are included below.
 
 After the Section 4.2 operating-point experiment, create the attack-wise
 Section S1 atlas with:
