@@ -1,0 +1,11 @@
+The package includes the image files needed to reproduce the reported
+experiments.  The eight classic host images were obtained from G. Levkine's
+Test Images Collection and the Standard Test Images for Image Processing
+repository:
+https://www.hlevkin.com/hlevkin/06testimages.htm
+https://github.com/mohammadimtiazz/standard-test-images-for-Image-Processing
+
+The Kodak24 files are from the Kodak Lossless True Color Image Suite.  The
+four supplied watermark pixel arrays were prepared by the authors for this
+study.  This notice records provenance and does not characterize the host or
+Kodak images as public domain, copyright-free, or license-free.

@@ -1,0 +1,8 @@
+Copyright (c) 2026 Emre Kisi and Mihriban Yuksek.
+All rights reserved.
+
+The source code and execution instructions in this package are provided for
+scholarly review and reproducibility.  This notice does not transfer rights
+in third-party images or in the published methods that are reimplemented for
+comparison.  Requests for additional use rights should be directed to the
+corresponding author and, where applicable, to the relevant rights holder.
